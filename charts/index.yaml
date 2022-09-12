@@ -1,24 +1,14 @@
 apiVersion: v1
 entries:
-  template:
+  service:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2022-09-11T20:36:37.762504438-05:00"
+    created: "2022-09-11T21:25:42.049863229-05:00"
     description: A Helm chart for Kubernetes
-    digest: 20500fc17d1cbd1f660d0c734f48c4b84756df6627a2f9e4da6dc556f35ccdb3
-    name: template
+    digest: 6d1618523057c39e39303c7165d053c0a03e943f502dd64eb03bde94428cbbc4
+    name: service
     type: application
     urls:
-    - template-0.0.2.tgz
-    version: 0.0.2
-  - apiVersion: v2
-    appVersion: 0.0.1
-    created: "2022-09-11T20:36:37.762236117-05:00"
-    description: A Helm chart for Kubernetes
-    digest: 04ff956501737de6eaeb90247e536845ba696585fe197e433e6939f40952c4c7
-    name: template
-    type: application
-    urls:
-    - template-0.0.1.tgz
+    - service-0.0.1.tgz
     version: 0.0.1
-generated: "2022-09-11T20:36:37.761832878-05:00"
+generated: "2022-09-11T21:25:42.049438762-05:00"
