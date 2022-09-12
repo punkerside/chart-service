@@ -6,7 +6,7 @@ spec:
   maxReplicas: 3
   automountServiceAccountToken: false
   containers:
-    image: punkerside/noroot:v0.0.6
+    image: punkerside/noroot:v0.0.7
     imagePullPolicy: Always
     cpu: 100m
     memory: 200Mi
