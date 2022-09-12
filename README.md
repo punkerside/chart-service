@@ -1,0 +1,1 @@
+[![GitHub Tag](https://img.shields.io/github/tag-date/punkerside/chart-service.svg?style=plastic)](https://github.com/punkerside/chart-service/tags/)

@@ -1,0 +1,25 @@
+name: titan
+spec:
+  namespace: default
+  replicas: 2
+  minReplicas: 1
+  maxReplicas: 3
+  automountServiceAccountToken: false
+  containers:
+    image: punkerside/noroot:v0.0.6
+    imagePullPolicy: Always
+    cpu: 100m
+    memory: 200Mi
+    containerPort: 5000
+    servicePort: 80
+    serviceProtocol: TCP
+    probe: /status
+    initialDelaySeconds: 5
+    periodSeconds: 3
+    averageUtilizationCpu: 85
+    averageUtilizationMemory: 85
+    runAsUser: 10000
+    runAsGroup: 10000
+    readOnlyRootFilesystem: true
+    allowPrivilegeEscalation: false
+    capabilitiesDrop: ALL
